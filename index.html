@@ -1,26 +1,21 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Téléchargement Hakai</title>
+    <title>Hakai Download</title>
     <link rel="stylesheet" href="./app.css">
 </head>
 <body>
     <div class="container">
-        <h1>Téléchargement de Hakai.exe</h1>
-        <div class="spinner"></div>
-        <p>Le téléchargement devrait commencer automatiquement...</p>
-        <a href="./Hakai.exe" download="Hakai.exe" id="downloadLink">
-            Cliquez ici si le téléchargement ne démarre pas
+        <h1>Hakai.exe Download</h1>
+        <p>Click the button below to download Hakai.exe</p>
+        <a href="./Hakai.exe" download="Hakai.exe" id="downloadLink" class="download-btn">
+            Download Hakai.exe
+        </a>
+        <a href="https://discord.gg/gae5pWCht3" id="discordLink" class="discord-btn" target="_blank">
+            Join our Discord
         </a>
     </div>
-
-    <script>
-        window.addEventListener('load', function() {
-            const link = document.getElementById('downloadLink');
-            link.click();
-        });
-    </script>
 </body>
 </html>
