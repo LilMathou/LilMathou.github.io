@@ -5,17 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hakai</title>
     <link rel="stylesheet" href="./styles/app.css">
+    <link href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Hakai</h1>
-        <p>Click one of the button bellow.</p>
-        <a href="./Hakai.exe" download="Hakai.exe" id="downloadLink" class="download-btn">
-            Download Hakai.exe
-        </a>
-        <a href="https://discord.gg/gae5pWCht3" id="discordLink" class="discord-btn" target="_blank">
-            Join our Discord
-        </a>
-    </div>
+    <main class="container">
+        <span class="badge">Windows 10 / 11</span>
+
+        <h1>
+            Hakai
+        </h1>
+
+        <p class="subtitle">
+            Click one of the button bellow.
+        </p>
+
+        <div class="actions">
+            <a href="./Hakai.exe" download class="download-btn">
+                <i class="ph ph-download"></i>
+                Download
+            </a>
+
+            <a href="https://discord.gg/gae5pWCht3" target="_blank" class="discord-btn">
+                <i class="ph ph-discord-logo"></i>
+                Discord
+            </a>
+        </div>
+
+        <section class="section">
+            <h2>Modules</h2>
+            <div class="grid">
+                <span>Clicker</span>
+                <span>Reach</span>
+                <span>Velocity</span>
+                <span>StreamHide</span>
+                <span>TaskBarHide</span>
+                <span>HideWindow</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Premium (Discord Boost)</h2>
+            <div class="grid premium-grid">
+                <span>Aim Assist</span>
+                <span>Air Accel</span>
+            </div>
+        </section>
+
+        <div class="notice">
+            <i class="ph ph-shield-check"></i>
+            <div>
+                <strong>Windows Defender Notice</strong>
+                <p>Hakai may show a SmartScreen warning due to being unsigned. This is normal. The file is safe.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 Hakai</p>
+        </footer>
+    </main>
 </body>
 </html>
